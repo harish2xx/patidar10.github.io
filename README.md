@@ -35,7 +35,7 @@
            padding:0px;
          }
   body{ float:left;
-width:1825px;
+width:1500px;
         height:950px;
         margin:2px;
           color:red;
