@@ -14,6 +14,10 @@
 
 
      <style>
+  .pati{
+            width:100%;
+            height:100%;
+            }
 
 .top{
       width:1825px;
@@ -274,6 +278,8 @@ h4{color:#FFD300;
 
 
 <body>
+     <div class= "pati">
+          
 <div class="top">
   
  </div>
@@ -447,6 +453,7 @@ h4{color:#FFD300;
 This portal is part of Institution e-Governance initiative. The site is running on Beta Version This portal is managed by Centre for Research and Industrial Staff Performance ( CRISP ), Bhopal. Best viewed in IE 6.0 and above with monitor resolution 1024x768.</p>
 
    </div>
+ </div>
  </div>
  <script>
   var images =[
