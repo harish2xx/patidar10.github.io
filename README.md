@@ -1,4 +1,3 @@
-# patidar10.github.io
 <html>
      <head>
                 <title>                     </title>
@@ -40,7 +39,7 @@ width:1840px;
 .image{
         height:380px;
         width:500px;
-        background-image:url(uit1.jpg);
+        background-image:url(http://www.uitrgpv.ac.in/images/slide1.jpg);
         transform:translate(260px,90px);
       }
 
@@ -286,7 +285,7 @@ h4{color:#FFD300;
    <div class="image">
     </div>
    <div class="logo">
-     <img src="uit logo.gif"/>
+     <img src="http://www.uitrgpv.ac.in/Images/img_logo.gif"/>
     </div>
     <div class="text">
        <h1> About UIT</h1>
@@ -370,7 +369,7 @@ h4{color:#FFD300;
  
   <div class="login1">
     
-   <img src="login.gif" />
+   <img src="http://www.uitrgpv.ac.in/images/studentLogin.gif" />
 
 
   </div>
@@ -387,7 +386,7 @@ h4{color:#FFD300;
   </div>
    <div class="login3">
     
-       <img src="capca.jpeg" />
+       <img src="http://www.uitrgpv.ac.in/CaptchaImage.axd?guid=0286ba59-5a62-4bf0-9b81-a9fa2184c07a" />
 
     </div>
 
@@ -420,7 +419,7 @@ h4{color:#FFD300;
    <div class="contact">
        <h3> CALL US</h3>
        <hr/>
-         <img src="call.png"/>
+         <img src="http://www.uitrgpv.ac.in/images/phone_btn.png"/>
         <p>for techincal support</br>+91-8989205805</p>
     </div>
  <div class="contactus">
@@ -432,7 +431,7 @@ h4{color:#FFD300;
  </div>
    <div class="photo">
              <button onclick="prev()">prev</button>
-             <img id="slider" src="img1.jpg"/>
+             <img id="slider" src="http://www.uitrgpv.ac.in/Images/photo1.jpg"/>
              
              <button onclick="next()">next</button>
     
@@ -451,7 +450,7 @@ This portal is part of Institution e-Governance initiative. The site is running 
  </div>
  <script>
   var images =[
-    "img2.jpg","3.jpg" ,"img4.jpg"
+    "http://www.uitrgpv.ac.in/Images/photo4.jpg","http://www.uitrgpv.ac.in/Images/photo2.jpg" ,"http://www.uitrgpv.ac.in/Images/photo3.jpg"
     ];
     var num=0;
     function next(){
