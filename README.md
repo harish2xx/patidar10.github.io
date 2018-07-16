@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+
      <head>
                 <title>                     </title>
 
@@ -35,8 +35,8 @@
            padding:0px;
          }
   body{ float:left;
-width:100%;
-        height:100%;
+width:1825px;
+        height:950px;
         margin:2px;
           color:red;
         background:linear-gradient( white 400px ,#2A5B8C 400px );
