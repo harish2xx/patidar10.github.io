@@ -16,7 +16,7 @@
      .login{
              width:350px;
              height:400px;
-             transform:translate(650px,160px);
+             transform:translate(650px,360px);
              border:none;
              background:rgba(0,0,0,.5);
              color:#fff;
