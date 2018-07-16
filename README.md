@@ -58,7 +58,7 @@ width:1840px;
       width:1000px;
       background-color:none;
       border:none;
-      transform:translate(0px,-840px);
+      transform:translate(0px,-800px);
       padding:0px;
        font-family:arial;
      } 
