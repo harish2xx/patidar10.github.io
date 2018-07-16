@@ -34,8 +34,8 @@
            padding:0px;
          }
   body{ float:left;
-width:1840px;
-        height:925px;
+width:100%;
+        height:100%;
         margin:2px;
           color:red;
         background:linear-gradient( white 400px ,#2A5B8C 400px );
