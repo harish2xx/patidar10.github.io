@@ -1,487 +1,274 @@
+<!doctype>
 <html>
-     <head>
-                <title>                     </title>
+    <head>
+        <meta  charset="utf-8">
+        <title>
+                 lol
+        </title>
 
-
-
-
-
-
-
-
-
-
-
-
-     <style>
-
-.top{
-      width:1825px;
-      height:10px;
-      transform:translate(0px,0px);
-      background-color:#0E4C92;
-      padding:0px;
-    }
-.topblack{
-           width:1825px;
-           height:4px;
-            transform:translate(0px,-4px);
-           background-color:#222021;
-           padding:0px;
-         }
-  .body1{ float:left;
-width:1840px;
-        height:925px;
-        margin:2px;
-          color:red;
-        background:linear-gradient( white 400px ,#2A5B8C 400px );
-  }
-.image{
-        height:380px;
-        width:500px;
-        background-image:url(uit1.jpg);
-        transform:translate(260px,90px);
-      }
-
-.box{
-     height:750px;
-     width:1000px;
-     background-color:none;
-     border:none;
-     transform:translate(413px,0px);
-     padding:0px;
-     
-     background-repeat:no-repeat;
-} 
-.list{
-      height:40px;
-      width:1000px;
-      background-color:none;
-      border:none;
-      transform:translate(0px,-840px);
-      padding:0px;
-       font-family:arial;
-     } 
-      
-*{margin:0px;
-   padding:0px;}
-
-#img1{transform:translate(250px,70px);
-
-      }
-ul{ 
-list-style-type:none;
-}
-ul li{
-background-color:#222021;
-float:left;
-width:109px;
-height:45px;
-border :.5px solid rgba(134, 131, 131, 0.925);
-line-height:45px;
-text-align:center;
-font-size:15px;
-
-
-
-}
-
-ul li a{color:white;
-         text-decoration:none;
-        display:block;
+        <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    <style>/* 
+        html5doctor.com Reset Stylesheet
+        v1.6.1
+        Last Updated: 2010-09-17
+        Author: Richard Clark - http://richclarkdesign.com 
+        Twitter: @rich_clark
+        */
         
-}
-ul li ul li{
-display:none;
-background-color:#2A5B8C;
-width:165px;
-height:39px;
-text-align:center;
-line-height:30px; 
-}
-
-ul li:hover ul li{
-display:block;
-border-bottom: 1px solid black;
-
-
-}
-ul li ul li:hover{
-background-color:#003151;
-}
-
-
-.logo{
-       width:140px;
-       height:140px;
-       transform:translate(0px,-280px);
-      }
- .text{
-        width:240px;
-        height:290px;
-        transform:translate(0px,-100px);
-        border:none;
-        font-size:15px;
-        word-wrap:break-word;
-        color:white;
-      }
-h1{color:#D5B85A;
-   font-weight:bold;
-   font-size:20px;}
-h2{color:#FFD300;
-  font-weight:bold;
-  font-size:20px;}
-h3{color:#FFD300;
-  font-weight:bold;
-  font-size:20px;}
-h4{color:#FFD300;
-   font-weight:bold;
-   font-size:20px;}
-.read{
-       width:155px;
-       height:22px;
-       font-size:medium;
-       background-color:#EF7215;
-       color:black;
-        transform:translate(20px,-140px);
-       text-decoration:none;
-       line-height:22px;
-       text-align:center;
- 
-}
-.down{
-       width:1835px;
-       height:140px;
-       background-color:#222021;
-        transform:translate(0px,0px);
-       border:none;
-    }
-.last{
-     width:1835px;
-     height:100px;
-     background-color:#D9DDDC;
-    transform:translate(0px,0px);
-} 
-.ragging{
-          width:150px;
-          height:150px;
-          border:none;
-          transform:translate(423px,8px);
-          color:white;
-         word-wrap:break-word;
-         font-size:14px;
-         
+        html, body, div, span, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        abbr, address, cite, code,
+        del, dfn, em, img, ins, kbd, q, samp,
+        small, strong, sub, sup, var,
+        b, i,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section, summary,
+        time, mark, audio, video {
+            margin:0;
+            padding:0;
+            border:0;
+            outline:0;
+            font-size:100%;
+            vertical-align:baseline;
+            background:transparent;
         }
-.ragging a{color:#FFD300;
-           }
-.contact{
-         width:150px;
-         height:150px;
-         border:none;
-         transform:translate(650px,-135px);
-         color:white;
-          font-size:14px;
+        
+        body {
+            line-height:1;
+        }
+        
+        article,aside,details,figcaption,figure,
+        footer,header,hgroup,menu,nav,section { 
+            display:block;
+        }
+        
+        nav ul {
+            list-style:none;
+        }
+        
+        blockquote, q {
+            quotes:none;
+        }
+        
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content:'';
+            content:none;
+        }
+        
+        a {
+            margin:0;
+            padding:0;
+            font-size:100%;
+            vertical-align:baseline;
+            background:transparent;
+        }
+        
+        /* change colours to suit your needs */
+        ins {
+            background-color:#ff9;
+            color:#000;
+            text-decoration:none;
+        }
+        
+        /* change colours to suit your needs */
+        mark {
+            background-color:#ff9;
+            color:#000; 
+            font-style:italic;
+            font-weight:bold;
+        }
+        
+        del {
+            text-decoration: line-through;
+        }
+        
+        abbr[title], dfn[title] {
+            border-bottom:1px dotted;
+            cursor:help;
+        }
+        
+        table {
+            border-collapse:collapse;
+            border-spacing:0;
+        }
+        
+        /* change border colour to suit your needs */
+        hr {
+            display:block;
+            height:1px;
+            border:0;   
+            border-top:1px solid #cccccc;
+            margin:1em 0;
+            padding:0;
+        }
+        
+        input, select {
+            vertical-align:middle;
+        }
+                 /* MY CODE */
+                 *{
+                     text-decoration: none;
+                 }
+       body{
+           background-color:#f3f3f3;
+
+       }          
+       header{
+           background-color:#fff;
+           width:100%;
+           height:100px;
+       }
+       header .header-patidar{
+           font-family: catamaran;
+           font-size:24px;
+           font-weight:900;
+           color:#111;
+           text-transform:uppercase;
+           display:block;
+           margin:0 auto;
+           text-align: center;
+           padding:20px 0px;
+       }
+       header nav ul{
+           display:block;
+            margin :0 auto;
+            width:fit-content;
+       }
+       header nav ul li{
+        display:inline-block;
+        float:left;
+        list-style:none;
+        padding:0 16px;
+       }
+       header nav ul li a{
+           font-family: catamaran;
+           font-size: 16px;
           
-        }
-         
-.contactus{
-          width:200px;
-          height:150px;
-          color:white;
-           transform:translate(1200px,-285px);
-          font-size:14px;
-         }
-.end{
-         width:1000;
-         height:100px;
-         font-size:14px;
-          transform:translate(450px,14px);
-         color:black;
-   }
+           color:#111;
 
-
- a:link{
-           color:white;
-           text-decoration:none;
-          }
-.login1{ width:200px;
-        height:40px;
-        transform:translate(775px,-480px);
-        background-color:none;
-        border:none;
        }
-.login2{ width:180px;
- height:80px;
- transform:translate(775px,-465px);
- border:none;
-   color:white; }
-.login3{
-        width:140px;
-        height:30px;
-        transform:translate(775px,-455px);
-        border:none;
+       header .header-cases{
+           display:none;
        }
-.login4{
-         width:140px;
-         height:200px;
-         transform:translate(775px,-440px);
-         border: 1px solid red:
-          color:white;
-      }
-.login5{width:150px;
-         height:50px;
-         color:white;
-         transform:translate(775px,-530px);
-         font-size:14px;
-         border:none;
+       /*index */
+       .index-banner{
+           width:100%;
+           height:calc(100vh - 100px);
+           background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScxnZG3asisTiZDsKCn9pMxHdAZklz2IfGxJ7YVTBiazpjRrYO);
+           background-repeat:  no-repeat;
+           background-position:left;
+           background-size:cover;
+           display:table;
 
-        }
-.login5 a{color:white;}
-.hp{background-color:#EF7215;
-     width:80px;
-     height:30px;
-     color:white;
-     transform:translate(0px,13px);
-     font-size:14px;}
-.cap{color:white;}
-.photo{width:200px;
-       height:80px;
-       transform:translate(890px,-400px);
-      border:none;
-      }
-.photo>img{width:200px;
-           height:80px;
-           position:absolute;
-           
-          }
-.photo1{width:180px;
-        height:25px;
-        color:#FFD300;
-        font-size:24px;
-        font-weight:solid;
-        transform:translate(890px,-515px);
-        border:none;
-        }
+       }
+       .vertical-center{
+            display:table-cell;
+            vertical-align: middle;
+       }
+       .index-banner h2{
+        font-family: catamaran;
+           font-size:50px;
+            text-weight:900;
+           color:#fff;
+           text-align:center;
+           text-shadow:2px 2px 8px #111;
+           line-height:70px;
 
-</style>
-     </head>
+       }
+       .index-banner h1{ font-family: catamaran Garmond;
+           font-size:28px;
+            text-weight:100;
+           color:#fff;
+           line-height:40px;
+           font-style:italic;
+           text-align:center;
+           text-shadow:2px 2px 8px #111;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<body>
-  <div class="body1">
-<div class="top">
-  
- </div>
-<div class="topblack">
-  </div>
-
-
-<div class="box">
-   <div class="image">
-    </div>
-   <div class="logo">
-     <img src="uit logo.gif"/>
-    </div>
-    <div class="text">
-       <h1> About UIT</h1>
-        <p> UIT-RGPV, Bhopal is a community of teachers, staff & students, who are dedicated to the achievement of a shared vision of excellence. The community believes in renewing and transferring knowledge & skills and the development of positive & purposeful attitudes and values. Being in the campus of the State Technological University,the UIT-RGPV is in a position to offer excellent and high quality...</p>
-              
-      </div>
-      <div class="read">
-         <a href="3">Read More</a>
-      </div>
-
-
-
-
-
-
-    <div class="list">
-      <ul>
-           <li> <a href="3" >home</a></li>
-           <li> <a href="3" >about us</a>
-             <ul>
-                   <li> <a href="4">about uit </a></li>  
-                   <li> <a href="4">vc message </a></li> 
-                   <li> <a href="4">diretor message </a></li>   
-                   <li> <a href="4">campous information</a></li>  
-                   <li> <a href="4">placement record</a></li>
-                   <li> <a href="4">location</a></li>
-                   <li> <a href="4">contact us</a></li>
-            </ul>      
-         </li>
-         <li><a href="3" >department</a>
-             <ul> 
-                   <li> <a href="4"> institute login</a></li>  
-                   <li> <a href="4">departmental profile </a></li>          
-             </ul>
-         </li>
-         <li><a href="3" > admission</a>
-             <ul>
-                   <li> <a href="4">policy </a></li>  
-                   <li> <a href="4">doctral admission </a></li>  
-                   <li> <a href="4">pg admission </a></li>  
-                   <li> <a href="4">ug admission </a></li>  
-             </ul>
-        </li>
-        <li><a href="3" > acedmic</a>
-             <ul> 
-                   <li> <a href="4">acedmic calender </a></li>
-                   <li> <a href="4">fee structure </a></li>    
-                   <li> <a href="4">scheme/syllabus </a></li>  
-                   <li> <a href="4">ordiance</a></li>  
-             </ul>
-         </li>
-         <li><a href="3" >examination</a>
-              <ul>
-                   <li> <a href="4">result</a></li>
-              </ul>  
-         </li>
-         <li><a href="3" >student life</a>
-               <ul>
-                   <li> <a href="4">registration </a></li>  
-                   <li> <a href="4">login in </a></li>  
-                   <li> <a href="4">welfare</a></li>  
-                   <li> <a href="4">scheme/syllabus </a></li>
-                   <li> <a href="4">time table </a></li>  
-                   <li> <a href="4">download form</a></li>  
-                   <li> <a href="4">anti ragging </a></li>  
-                   <li> <a href="4">forget-password </a></li>  
-               </ul>  
-         </li>
-         <li><a href="3" >faculty&staff</a>
-               <ul>
-                   <li> <a href="4">check mail </a></li>  
-               </ul>
-         </li>
-         <li><a href="3" >support</a>
-                <ul>
-                   <li> <a href="4">lost & found </a></li>   
-                </ul>
-         </li>
-    </ul>
-  </div>
- 
-  <div class="login1">
-    
-   <img src="login.gif" />
-
-
-  </div>
-    <div class="login2">
-    
-       <form>
-              <label for="userid"> user id</label>
-              <input name="userid" type="text" placeholder="0101CS171043" required/>
-              <label for="password">password</label>
-              
-              <input name="password" type="password" placeholder="harish"/>
-              
-       </form>
-  </div>
-   <div class="login3">
-    
-       <img src="capca.jpeg" />
-
-    </div>
-
-    <div class="login4">
-      <form>
-       <label class="cap" for="capca">Please enter the Text Below in Text Box</label>
-       <input name="capca" type="text" />
-       <input class="hp" type="submit" value="login"/>
-     </form>
-
-
-    </div>
-     <div class="login5">
-          <img src="loginBullet.gif"/><a href="#">New User Register Here </a>  </br>
-          </br> <img src="loginBullet.gif"/><a href="#">Forget Password </a>  
-
-  
-    </div>
-
-
-</div>
-<div class="down">
-   <div class="ragging">
-           <h2>Anti Ragging</h2>
-           
-           <hr />
-           
-           <p> for more information on anti ragging <a href="#"> click here</a> </p>
-     </div>
-   <div class="contact">
-       <h3> CALL US</h3>
-       <hr/>
-         <img src="call.png"/>
-        <p>for techincal support</br>+91-8989205805</p>
-    </div>
- <div class="contactus">
-   <h4>CONTACT US</h4>
-    <hr/>
-    <p> University Institute of Technology Narsingharh By pass Road,
-       </br>Near Gandhi Nagar, Bhopal M.P
-         +(91)-(755)-2678812, Fax :2678819</p> 
- </div>
-   <div class="photo">
-             <button onclick="prev()">prev</button>
-             <img id="slider" src="img1.jpg"/>
+       }
+       .index-boxlink-squre{
+             margin:16px 16px 0px;
+             width:calc(100%-32px);
+             height:100px;
+             background-color:#d3bfbf;
              
-             <button onclick="next()">next</button>
-    
+       }
+       .index-boxlink-squre h3 { font-family: catamaran ;
+           font-size:28px;
+            text-weight:100;
+           color:#111;
+           line-height:100px;
+           font-style:italic;
+           text-align:center;
+           
+          text-transform:uppercase;
+
+       }
+    </style>
+    </head>
+    <body>
+       <header>
+            <a href="#" class="header-patidar">
+                patidar
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#">protfoliyo</a></li>
+                    <li><a href="#">about me</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+                <a href="#" class="header-cases">cases</a>
+            </nav>
+       </header>   
+       <main>
+         <section class ="index-banner">
+             <div class="vertical-center">
+             <h2> I AM A FREELANCE WEB<br> DEVELOPER</h2>
+             <h1>With Specialty in front-end development,functionality,ux design, and search engine optimization.</h1>
+         </div>
+         </section>
+<section>
+    <div class="index-boxlink-squre">
+        <h3>
+            cases
+        </h3>
     </div>
-  <div class="photo1">
-     <h5>Photo Gallery</h5> <hr/> 
-  </div>
-</div>
-<div class="last">
-   <div class="end">
-   
-     <p>This is the Institute Service Portal of UIT,RGPV Bhopal, developed with an objective to enable a single window access to information and services being provided by the various sections of Institute. The content in this Portal is the result of the processing of data and information about the Institution and Enrolled Students . </br>.
-This portal is part of Institution e-Governance initiative. The site is running on Beta Version This portal is managed by Centre for Research and Industrial Staff Performance ( CRISP ), Bhopal. Best viewed in IE 6.0 and above with monitor resolution 1024x768.</p>
+    <div class="index-boxlink-squre">
+            <h3>
+                protfoliyo
+            </h3>
+    </div>
+         <div class="index-boxlink-squre">
+                <h3>
+                    about
+                </h3>
+            </div>
+            <div class="index-boxlink-squre">
+                    <h3>
+                        contact
+                    </h3>
+                </div>
+                <div class="index-boxlink-squre">
+                        <h3>
+                         share
+                        </h3>
+                    </div>
+                    <div class="index-boxlink-squre">
+                            <h3>
+                             admin
+                            </h3>
+                        </div>
+            
+</section>
+       </main> 
+       <footer>
 
-   </div>
- </div>
- <script>
-  var images =[
-    "img2.jpg","3.jpg" ,"img4.jpg"
-    ];
-    var num=0;
-    function next(){
-      var slider = document.getElementById("slider");
-      num++;
-      if (num>=images.length){
-        num=0;
-      }
-      slider.src=images[num];
-    }
-    function prev(){
-      var slider = document.getElementById("slider");
-      num--;
-      if(num<0){
-        num=images.length-1;
+         
 
-      }
-      slider.src=images[num];
-    }
- </script>
- </div>
-</body>
+       </footer>
+    </body>
 </html>
-
