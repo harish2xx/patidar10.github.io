@@ -1,15 +1,10 @@
-# DM_PROJECT_Anime-Recommendation-System
+#  CS657A: Information Retrieval Assignment 1
 
 
-## CS685A PROJECT README
+## to run assignment
 ------------------------
 
-Project for CS685A: Data Mining by Group #35 
-{
-    Naman Rajput    : 2111043 
-}.
-
-"$bash proj.sh" runs the entire project pipeline.
+"$bash ir-systems.sh" runs the entire project pipeline.
 
 To make the script(s) executable, run the command "$chmod u+x <script_name>.sh"
 To run the script(s), run the command "$bash <script_name>.sh"
@@ -18,13 +13,8 @@ To run the script(s), run the command "$bash <script_name>.sh"
 ## PLUGINS
 ----------
 
-Software: Jupyter notebook  
-    Shell scripts run jupyter notebooks in python3 env.
-
 Environment: Python 3.8.10  
-    Environment in which jupyter notebooks are executed.
-
-
+   
 ---------------
 ## DEPENDENCIES
 ---------------
@@ -34,12 +24,7 @@ Environment: Python 3.8.10
 
     -> Pandas 1.3.4             : For dataset manipulation, data analysis, time series & statistics.
     -> NumPy 1.21.4             : For mathematical functions & array computations.
-    -> nbconvert 6.2.0          : Converts Jupyter Notebooks
-    -> requests 2.22.0          : Python HTTP for Humans.
-    -> beautifulsoup4 4.10.0    : Screen-scraping library.
-    -> from fuzzywuzzy import process        : for matching anime name with some error
-    -> scipy.sparse csr_matrix  : creating sparse matrix
-    -> sklearn.neighbors  NearestNeighbors : train knn model
+    -> ast                      : Abstract Syntax Trees
 
 
 
