@@ -53,22 +53,6 @@ NOTE: Please do not modify directory structure, it may break the code.
 Stage 1 (Data Extraction):
 --------------------------
 
-IPynb files in this stage are as follows:
-
-    -> `myanimelist_url_scraper.ipynb`:
-        Scraps the URLs of all anime(s) from `myanimelist.com` and saves them in `anime-urls-main.csv`
-        Maximum number of threads for multithreading = 30  
-        Maximum wait time between requests = 0.2 s  
-
-        Run `$jupyter nbconvert --to notebook --execute --inplace myanimelist_url_scraper.ipynb` command to execute.
-
-    -> `myanimelist_data_scraper.ipynb`:  
-        Scraps the anime data (info & reviews) for all anime(s) from `myanimelist.com` and saves them in `anime-info-main.  csv` & `anime-review-main.csv`.  
-        Optimal number of cores for multiprocessing = 8  
-        Maximum number of threads for multithreading = 30  
-        Maximum wait time between requests = 1.0 s  
-
-        Run `$jupyter nbconvert --to notebook --execute --inplace myanimelist_data_scraper.ipynb` command to execute.  
 
 Stage 2 (Data Cleaning & EDA):
 ------------------------------
