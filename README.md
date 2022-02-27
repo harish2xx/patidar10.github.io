@@ -57,9 +57,9 @@ PERFORM TOKENIZATION AND STEMMING:
 IR SYSTEM :
 -----------
                   using processed data design three differnt ir system 
-		  1. simple Boolean retrieval system.
-		  2. Tf-Idf with query is matched using cosine similarity.
-		  3. BM25 family with appropriate forms for the functions and tuned parameters.
+		  1. simple Boolean retrieval system (boolean.py)
+		  2. Tf-Idf with query is matched using cosine similarity (tf-idf.py)
+		  3. BM25 family with appropriate forms for the functions and tuned parameters (bm25.py)
 		 
               
 ----------------
