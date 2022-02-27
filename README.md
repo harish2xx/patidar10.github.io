@@ -47,6 +47,21 @@ Environment: Python 3.8.10
 	
 
 
+---------------------------------
+PERFORM TOKENIZATION AND STEMMING: 
+---------------------------------
+                    Reading each file and removing special  characters then tokenization and stemming after that store back the processed data in                         processed-english-corpora
+		    code :tokenization and stemming.py
+
+-----------
+IR SYSTEM :
+-----------
+                  using processed data design three differnt ir system 
+		  1. simple Boolean retrieval system.
+		  2. Tf-Idf with query is matched using cosine similarity.
+		  3. BM25 family with appropriate forms for the functions and tuned parameters.
+		 
+              
 ----------------
 CONTACT DETAILS:
 ----------------
