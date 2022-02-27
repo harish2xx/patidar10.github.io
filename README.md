@@ -4,7 +4,7 @@
 ## to run assignment
 ------------------------
 
-To run the script(s) assignment , run the command "$make ARGS= query_file_name$"
+To run the script(s) assignment , run the command "$make ARGS= query_file_name"
 
 ----------
 ## PLUGINS
@@ -44,27 +44,6 @@ Environment: Python 3.8.10
 			 1.4.2  tf-idf.py  (tf_idf retrieval model)
 			 1.4.3  bm25.py    (mn25 retrieval model)
 	
-
-
-------------------------------
-## NOTEBOOKS (PIPELINE STAGES)
-------------------------------
-
-Stage 1 (Data Extraction):
---------------------------
-
-
-Stage 2 (Data Cleaning & EDA):
-------------------------------
-
-## DATA CLEANING
-
-## EXPLORATORY DATA ANALYSIS
-
-
--------------------------------------------
-Stage 3 anime recommendation system :  
--------------------------------------------
 
 
 ----------------
