@@ -4,10 +4,7 @@
 ## to run assignment
 ------------------------
 
-"$bash ir-systems.sh" runs the entire project pipeline.
-
-To make the script(s) executable, run the command "$chmod u+x <script_name>.sh"
-To run the script(s), run the command "$bash <script_name>.sh"
+To run the script(s) assignment , run the command "$make ARGS= query_file_name$"
 
 ----------
 ## PLUGINS
@@ -24,26 +21,29 @@ Environment: Python 3.8.10
 
     -> Pandas 1.3.4             : For dataset manipulation, data analysis, time series & statistics.
     -> NumPy 1.21.4             : For mathematical functions & array computations.
-    -> ast 2.2                  : Abstract Syntax Trees
-    -> math 3.10.2 
-    -> glob 2.7.8               : read file 
-    -> re 3.10.2                : regular experssion 
-
+    -> Math 3.10.2              : use mathematical function
+    -> Glob 2.7.8               : read file 
+    -> Re 2.2.1                 : regular experssion 
+    -> Datefinder               : find out date in text
+    -> Nltk 3.7                 : for stopwords , WordNetLemmatizer
 
 -----------
 ## CONTENTS
 -----------
    
 	1. Main directory contains 23 files and 2 subdirectories named datasets and Outputs
-	        1.1  1  english-corpora 
-		1.2. 1  processed-english-corpora
-		1.3. 3  txt files 
-			1.3.1. README.txt
-			1.3.2. requirements.txt
-		1.4. 4  
-			
-
-NOTE: Please do not modify directory structure, it may break the code. 
+	        1.1    english-corpora 
+		1.2    processed-english-corpora
+		1.3    txt files 
+			 1.3.1. README.txt
+			 1.3.2. Makefile
+			 1.3.3  query.txt
+			 1.3.4  QRels.txt
+		1.4    python code (IR system)
+		         1.4.1  boolean.py (boolean retrieval model)
+			 1.4.2  tf-idf.py  (tf_idf retrieval model)
+			 1.4.3  bm25.py    (mn25 retrieval model)
+	
 
 
 ------------------------------
