@@ -43,6 +43,7 @@ Environment: Python 3.8.10
 		         1.4.1  boolean.py (boolean retrieval model)
 			 1.4.2  tf-idf.py  (tf_idf retrieval model)
 			 1.4.3  bm25.py    (mn25 retrieval model)
+			 1.4.4  tokenization and stemming.py (processing and cleaning data)
 	
 
 
