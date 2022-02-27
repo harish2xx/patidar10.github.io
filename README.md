@@ -50,7 +50,7 @@ Environment: Python 3.8.10
 ---------------------------------
 PERFORM TOKENIZATION AND STEMMING: 
 ---------------------------------
-                    Reading each file and removing special  characters then tokenization and stemming after that store back the processed data in                         processed-english-corpora
+                    Reading each file and removing special  characters then tokenization and stemming after that store back the processed data in processed-english-corpora
 		    code :tokenization and stemming.py
 
 -----------
