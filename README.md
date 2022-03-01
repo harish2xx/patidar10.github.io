@@ -13,7 +13,7 @@ To run the script(s) assignment , run the command "$make ARGS= query_file_name"
 Environment: Python 3.8.10  
    
 ---------------
-## DEPENDENCIES
+## DEPENDENCIES :
 ---------------
 
 ### Libraries: Python packages  
@@ -28,7 +28,7 @@ Environment: Python 3.8.10
     -> Nltk 3.7                 : for stopwords , WordNetLemmatizer
 
 -----------
-## CONTENTS
+## CONTENTS :
 -----------
    
 	1. Main directory contains 23 files and 2 subdirectories named datasets and Outputs
@@ -47,21 +47,54 @@ Environment: Python 3.8.10
 	
 
 
----------------------------------
-PERFORM TOKENIZATION AND STEMMING: 
----------------------------------
-                    Reading each file and removing special  characters then tokenization and stemming after that store back the processed data in processed-english-corpora
+------------
+QUESTION 1 : 
+------------
+                    
+                    Reading each file and performing following task
+		     1. removing special  characters
+		     2. finding dates in text and store all dates in same format
+		     3. tokenization
+		     4. removing stop words 
+		     5. Stemming with lemmatization to get proper meaning words after tokenization 
+		     6. store back the processed text in new folder "processed-english-corpora" with same file id name
+		   
 		    code :tokenization and stemming.py
 
 -----------
-IR SYSTEM :
+QUESTION 2 :
 -----------
                   using processed data design three different ir system 
 		  1. simple Boolean retrieval system (boolean.py)
 		  2. Tf-Idf with query is matched using cosine similarity (tf-idf.py)
 		  3. BM25 family with appropriate forms for the functions and tuned parameters (bm25.py)
 		 
-              
+
+-----------
+QUESTION 3 :
+----------- 
+                set of 20 queries in the QRels format
+		1. query.txt   contain 20 query 
+		2. QRels.txt   conatin top 10 document for 20 query in QRels format
+
+
+
+-----------
+QUESTION 4 :
+----------- 
+		evaluated with  random 40 queries
+		
+		
+
+-----------
+QUESTION 5 :
+-----------
+              1. The submission contain a README file and a Makefile.
+	      2. 
+
+
+
+
 ----------------
 CONTACT DETAILS:
 ----------------
