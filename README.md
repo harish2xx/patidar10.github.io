@@ -8,8 +8,7 @@ To run the script(s) assignment , run the command
 1.   "$ make ARGS= pass english-corpora file name "  ,  it will 10-15 min to process all documents after that
 2.   program will ask for query file as input (program will ask query files for 2 times 20-20 query each time )
 3.   3 differnt qrels.txt files will be create after each 20 query files(for next 20 query output will be over write in same file)
-
-        3.1  bm25_qrels.txt
+4.      3.1  bm25_qrels.txt
         3.2  tf-idf_qrels.txt
         3.3  boolean_qrels.txt
   
