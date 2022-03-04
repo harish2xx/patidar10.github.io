@@ -4,7 +4,15 @@
 ## to run assignment
 ------------------------
 
-To run the script(s) assignment , run the command "$make ARGS= query_file_name"
+To run the script(s) assignment , run the command
+1.   "$ make ARGS= pass english-corpora file name "  ,  it will 10-15 min to process all documents after that
+2.   program will ask for query file as input (program will ask query files for 2 times 20-20 query each time )
+3.   3 differnt qrels.txt files will be create after each 20 query files(for next 20 query output will be over write in same file)
+     3.1  bm25_qrels.txt
+     3.2  tf-idf_qrels.txt
+     3.3  boolean_qrels.txt
+  
+
 
 ----------
 ## PLUGINS
@@ -17,7 +25,7 @@ Environment: Python 3.8.10
 ---------------
 
 ### Libraries: Python packages  
-    Can be installed using the following command "$pip install -r requirements.txt"  
+     
 
     -> Pandas 1.3.4             : For dataset manipulation, data analysis, time series & statistics.
     -> NumPy 1.21.4             : For mathematical functions & array computations.
@@ -33,18 +41,17 @@ Environment: Python 3.8.10
    
 	1. Main directory contains 23 files and 2 subdirectories named datasets and Outputs
 	        1.1    english-corpora 
-		1.2    processed-english-corpora
-		1.3    txt files 
+		1.2    txt files 
 			 1.3.1. README.txt
 			 1.3.2. Makefile
 			 1.3.3  query.txt
 			 1.3.4  QRels.txt
-		1.4    python code (IR system)
+		1.5    python code (IR system)
 		         1.4.1  boolean.py (boolean retrieval model)
 			 1.4.2  tf-idf.py  (tf_idf retrieval model)
 			 1.4.3  bm25.py    (mn25 retrieval model)
 			 1.4.4  tokenization and stemming.py (processing and cleaning data)
-	
+	                 1.4.5  final.py  (it combine all parts in one )
 
 
 ------------
@@ -90,7 +97,7 @@ QUESTION 4 :
 QUESTION 5 :
 -----------
               1. The submission contain a README file and a Makefile.
-	      2. 
+	      
 
 
 
